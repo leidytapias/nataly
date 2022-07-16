@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Gracias Nataly</title>
+    <link rel="stylesheet" href="estilo.css" />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+        integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous" />
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet" />
+</head>
+
+<body>
+    <main class="container">
+
+        <h2> Hola Nataly! <img src="https://media.giphy.com/media/mGcNjsfWAjY5AEZNw6/giphy.gif" width="50"></h2>
+        <h1>Gracias por ser nuestra Monitora --- ⭐️</h1>
+        <img aling='right' src="https://media.giphy.com/media/ieyl9zmCjO4b4t6qoY/giphy.gif" width="230">
+        <p>
+            <em>
+                <img src="https://media.giphy.com/media/fYSnHlufseco8Fh93Z/giphy.gif" width="50"></br>
+            </em>
+        </p>
+        <p>
+            <img src="https://media.giphy.com/media/VgCDAzcKvsR6OM0uWg/giphy.gif" width="50">Estos son algunos mensajes para tí ...
+        </p>
+        <p>
+            <img src="https://media.giphy.com/media/WUlplcMpOCEmTGBtBW/giphy.gif" width="50">
+        </p>
+        <section>
+            <blockquote>
+                <pre>
+                    <code> 
+                
+                     <div id='mensajes'></div>
+                     
+                    </code>
+                </pre>
+            </blockquote>
+        </section>
+
+        <img src="https://media.giphy.com/media/LnQjpWaON8nhr21vNW/giphy.gif" width="70"> <em><b>Por esto y por mas te
+                damos las Gracias </b> <b>Esperamos seguir contando contigo</b> :)</em> ---⭐️;
+    </main>
+    <script>
+
+        const nataly = [
+            {
+                mensaje:
+                    `"Nata: gracias por acompañarnos todas las noches a esas clases aburridas que no entendías. Eres la mejor. 🧡💛💚"`
+            },
+            {
+                mensaje:
+                    `"Naty muchas gracias por ser tan paciente y darnos alientos cuando no
+                  podemos más! Eres como una mami para nosotros y también eres parte del
+                  resultado de este lindo proceso y esperamos llegar al final todos contigo! ✨ ✨"`
+            },
+            {
+                mensaje:
+                    `"Nataly gracias por el tiempo y paciencia que has tenido con todos, eres una gran
+                  monitora espero que sigas con nosotros.!🌻🌻🌻"`
+            },
+            {
+                mensaje:
+                    `"Gracias por todas las horas que nos dedica en cada clase y fuera de ella,
+                  gracias por su infinita paciencia y por motivarnos día a dia fuiste, eres y
+                  seras Una persona muy importante en este proceso de aprendizaje Gracias totales. ¡Nata!.🌹🌹🌹"`
+            },
+            {
+                mensaje:
+                    `" Naty gracias por el cariño, la buena vibra y por siempre estar 
+                       pendiente de nosotros, tenemos la mejor tutora!.🌟✨"`
+            },
+            {
+                mensaje:
+                    `"Nataly mil gracias por cada consejo por cada mensaje al interno por estar 
+                      pendiente no solo en lo academico si no en lo personal de cada uno de los integrantes
+                      de esta camada, gracias por alegrarte por los pequeños triunfos de cada uno de nosotros
+                      gracias por pensar en los demas y por llevar tu trabajo mas halla!.💫💫"`
+            },
+            {
+                mensaje:
+                    `"Nataly muchas gracias por tu dedicación, entrega y sobre todo por motivarnos cada día,
+                      el estar pendiente de nosotros es un apoyo muy grande!!.🌼🌼🌼"`
+            },
+        ];
+
+
+        let mensajesDom = document.getElementById('mensajes');
+        nataly.forEach(objeto => {
+            mensajesDom.innerHTML += "<span>" + objeto.mensaje + "</span> <br /> <br />";
+        })
+    </script>
+</body>
+
+</html>
